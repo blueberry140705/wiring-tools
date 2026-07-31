@@ -1,0 +1,96 @@
+{
+  "bb.WiringTool_CircuitBoard": {
+    "Ingredients": {
+      "384": 10
+    }
+  },
+  "bb.WiringTool_Switch": {
+    "Ingredients": {
+      "bb.WiringTool_BufferGate": 2
+    }
+  },
+  "bb.WiringTool_WindTurbine": {
+    "Ingredients": {
+      "388": 50,
+      "92": 50
+    }
+  },
+  "bb.WiringTool_EnergyMeter": {
+    "Ingredients": {
+      "bb.WiringTool_BufferGate": 2,
+      "bb.WiringTool_XorGate": 2,
+      "bb.WiringTool_CircuitBoard": 2
+    }
+  },
+  "bb.WiringTool_EnergyStorage": {
+    "Ingredients": {
+      "388": 50,
+      "92": 50,
+      "bb.WiringTool_AndGate": 10,
+      "bb.WiringTool_OrGate": 10,
+      "bb.WiringTool_NotGate": 10,
+      "bb.WiringTool_XorGate": 10,
+      "bb.WiringTool_NandGate": 10,
+      "bb.WiringTool_NorGate": 10,
+      "bb.WiringTool_XnorGate": 10,
+      "bb.WiringTool_BufferGate": 10,
+      "bb.WiringTool_TimerGate": 10,
+      "bb.WiringTool_SrLatch": 10,
+      "bb.WiringTool_DLatch": 10,
+      "bb.WiringTool_CountdownTimer": 10,
+      "bb.WiringTool_DelayGate": 10
+    }
+  },
+  "bb.WiringTool_TeleGate": {
+    "Ingredients": {
+      "bb.WiringTool_AndGate": 50,
+      "bb.WiringTool_OrGate": 50,
+      "bb.WiringTool_NotGate": 50,
+      "bb.WiringTool_XorGate": 50,
+      "bb.WiringTool_NandGate": 50,
+      "bb.WiringTool_NorGate": 50,
+      "bb.WiringTool_XnorGate": 50,
+      "bb.WiringTool_BufferGate": 50,
+      "bb.WiringTool_TimerGate": 50,
+      "bb.WiringTool_SrLatch": 50,
+      "bb.WiringTool_DLatch": 50,
+      "bb.WiringTool_CountdownTimer": 50,
+      "bb.WiringTool_DelayGate": 50,
+      "bb.WiringTool_CircuitBoard": 50,
+      "335": 50
+    }
+  },
+  "bb.WiringTool_VoltageRegulator": {
+    "Ingredients": {
+      "bb.WiringTool_NotGate": 5,
+      "bb.WiringTool_BufferGate": 5,
+      "bb.WiringTool_CircuitBoard": 5
+    }
+  },
+  "bb.WiringTool_MusicBox": {
+    "Ingredients": {
+      "bb.WiringTool_TimerGate": 1,
+      "bb.WiringTool_BufferGate": 1,
+      "bb.WiringTool_CircuitBoard": 2
+    }
+  },
+  "bb.WiringTool_TimeMachine": {
+    "Ingredients": {
+      "bb.WiringTool_AndGate": 50,
+      "bb.WiringTool_OrGate": 50,
+      "bb.WiringTool_NotGate": 50,
+      "bb.WiringTool_XorGate": 50,
+      "bb.WiringTool_NandGate": 50,
+      "bb.WiringTool_NorGate": 50,
+      "bb.WiringTool_XnorGate": 50,
+      "bb.WiringTool_BufferGate": 50,
+      "bb.WiringTool_TimerGate": 50,
+      "bb.WiringTool_SrLatch": 50,
+      "bb.WiringTool_DLatch": 50,
+      "bb.WiringTool_CountdownTimer": 50,
+      "bb.WiringTool_DelayGate": 50,
+      "bb.WiringTool_CircuitBoard": 50,
+      "337": 50
+    }
+  }
+}
