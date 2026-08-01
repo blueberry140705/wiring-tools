@@ -1,0 +1,126 @@
+{
+  "bb.WiringTool_SmartGlasses": {
+    "Name": "Smart Glasses",
+    "Description": "Sản phẩm mới của Jojo,công ty con của Joja,phát hành giới hạn"
+  },
+  "bb.WiringTool_CircuitBoard": {
+    "Name": "Circuit Board",
+    "Description": "Con người đã làm ra những cái như này chỉ bắt đầu bằng một ngọn lửa"
+  },
+  "bb.WiringTool_Switch": {
+    "Name": "Wire Switch",
+    "Description": "Công tắc phát tín hiệu logic ON/ÒFF"
+  },
+  "bb.WiringTool_AndGate": {
+    "Name": "AND Gate",
+    "Description": "ON khi cả A và B đều ON"
+  },
+  "bb.WiringTool_OrGate": {
+    "Name": "OR Gate",
+    "Description": "ON output khi A hoặc B ON"
+  },
+  "bb.WiringTool_NotGate": {
+    "Name": "NOT Gate",
+    "Description": "Đảo tín hiệu đầu vào"
+  },
+  "bb.WiringTool_XorGate": {
+    "Name": "XOR Gate",
+    "Description": "ON khi CHỈ một trong hai ON"
+  },
+  "bb.WiringTool_NandGate": {
+    "Name": "NAND Gate",
+    "Description": "Đảo của AND"
+  },
+  "bb.WiringTool_NorGate": {
+    "Name": "NOR Gate",
+    "Description": "Đảo của OR"
+  },
+  "bb.WiringTool_XnorGate": {
+    "Name": "XNOR Gate",
+    "Description": "Kiểm tra kiến thức nào"
+  },
+  "bb.WiringTool_BufferGate": {
+    "Name": "Buffer Gate",
+    "Description": "Lặp lại tín hiệu đầu vào"
+  },
+  "bb.WiringTool_TimerGate": {
+    "Name": "Timer Gate",
+    "Description": "Khi input ENABLE bật, đổi trạng thái output theo khoảng 0.1–2.0 giây; input tắt thì output tắt và chu kỳ được reset"
+  },
+  "bb.WiringTool_SrLatch": {
+    "Name": "SR Latch",
+    "Description": "Bộ nhớ logic có nguồn điện với SET, RESET, Q và !Q"
+  },
+  "bb.WiringTool_SolarGenerator": {
+    "Name": "Solar Generator",
+    "Description": "Nguồn năng lượng tái tạo từ nắng"
+  },
+  "bb.WiringTool_WindTurbine": {
+    "Name": "Wind Turbine",
+    "Description": "Dôn ki hô tê ở đâu"
+  },
+  "bb.WiringTool_EnergyMeter": {
+    "Name": "Energy Meter",
+    "Description": "Đo V, A, Ω và W của nhánh rồi phát tín hiệu khi có điện"
+  },
+  "bb.WiringTool_LightSensor": {
+    "Name": "Light Sensor",
+    "Description": "Hai output riêng cho môi trường sáng và tối"
+  },
+  "bb.WiringTool_LiquidSensor": {
+    "Name": "Liquid Sensor",
+    "Description": "Phát hiện mưa hoặc nước ở các ô bên cạnh"
+  },
+  "bb.WiringTool_ProximityScanner": {
+    "Name": "Proximity Scanner",
+    "Description": "Phát hiện sự sống trong 4 ô"
+  },
+  "bb.WiringTool_PressurePlate": {
+    "Name": "Pressure Plate",
+    "Description": "Tấm áp lực,giẩm lên để kích hoạt"
+  },
+  "bb.WiringTool_DLatch": {
+    "Name": "D-Latch",
+    "Description": "Chép DATA ra output khi ON, giữ trạng thái khi OFF"
+  },
+  "bb.WiringTool_CountdownTimer": {
+    "Name": "Countdown Timer",
+    "Description": "Giữ ON trong 1–5 giây sau khi tín hiệu RESET ngắt"
+  },
+  "bb.WiringTool_DelayGate": {
+    "Name": "Delay Gate",
+    "Description": "Trì hoãn mọi thay đổi tín hiệu trong nửa giây"
+  },
+  "bb.WiringTool_AutoTurret": {
+    "Name": "Auto Turret",
+    "Description": "Bùm bùm bùm..."
+  },
+  "bb.WiringTool_EnergyStorage": {
+    "Name": "Energy Storage",
+    "Description": "Lưu năng lượng bằng J và phát điện,nếu dưới 20%, điện áp sụt"
+  },
+  "bb.WiringTool_VoltageRegulator": {
+    "Name": "Bộ điều áp",
+    "Description": "Đổi điện áp đầu ra theo theo hệ số từ -0.9 - 2.0, cường độ dòng diện thì ngược lại"
+  },
+  "bb.WiringTool_CombatDrone": {
+    "Name": "Combat Drone",
+    "Description": "Công nghệ mới"
+  },
+  "bb.WiringTool_TeleGate": {
+    "Name": "Teleport Gate",
+    "Description": "Anh và em có thể gần nhau hơn ?không ?"
+  },
+  "bb.WiringTool_TimeMachine": {
+    "Name": "Time Machine",
+    "Description": "Thời gian là ảo, không gian mới là thật.Bạn không thể trở về quá khứ do không thể tái tạo lại trạng thái của cả vũ trụ.Nhưng bạn có thể dừng trạng thái của chính bạn để tới tương lai"
+  },
+  "bb.WiringTool_MusicBox": {
+    "Name": "Music Box",
+    "Description": "Nà Ná Na"
+  },
+  "bb.WiringTool_PowerRelay": {
+    "Name": "Power Relay",
+    "Description": "relay 1 keenh, dùng để ngắt/mở mạch"
+  }
+}

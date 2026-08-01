@@ -1,0 +1,268 @@
+{
+  "bb.WiringTool_SmartGlasses": {
+    "SellPrice": 9999,
+    "Shops": {
+      "TV": {
+        "BuyPrice": 2500,
+        "AvailableStock": 2147483647,
+        "AvailableDayOfWeek": "Sunday",
+        "AvailableTimeOfDay": 2100,
+        "DeliveryDelayDays": 1
+      }
+    }
+  },
+  "bb.WiringTool_CircuitBoard": {
+    "SellPrice": 250,
+    "Shops": {}
+  },
+  "bb.WiringTool_Switch": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_AndGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_OrGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_NotGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_XorGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_NandGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_NorGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_XnorGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_BufferGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_TimerGate": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_SrLatch": {
+    "SellPrice": 250,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_SolarGenerator": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 15000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_WindTurbine": {
+    "SellPrice": 150,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 15500,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_EnergyMeter": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_LightSensor": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_LiquidSensor": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_ProximityScanner": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_PressurePlate": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_DLatch": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_CountdownTimer": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_DelayGate": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 3000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_AutoTurret": {
+    "SellPrice": 1500,
+    "Shops": {}
+  },
+  "bb.WiringTool_EnergyStorage": {
+    "SellPrice": 15000,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 35000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_CombatDrone": {
+    "SellPrice": 1500,
+    "Shops": {}
+  },
+  "bb.WiringTool_TeleGate": {
+    "SellPrice": 4200000,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 8200000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_VoltageRegulator": {
+    "SellPrice": 1500,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 2500,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_TimeMachine": {
+    "SellPrice": 4200000,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 8200000,
+        "AvailableStock": 2147483647
+      }
+    }
+  },
+  "bb.WiringTool_MusicBox": {
+    "SellPrice": 3000,
+    "Shops": {}
+  },
+  "bb.WiringTool_TeleGateBlocker": {
+    "SellPrice": 0,
+    "Shops": {}
+  },
+  "bb.WiringTool_PowerRelay": {
+    "SellPrice": 2000,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 4000,
+        "AvailableStock": 2147483647
+      }
+    }
+  }
+}
