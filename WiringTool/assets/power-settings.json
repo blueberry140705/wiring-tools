@@ -242,6 +242,7 @@
     "bb.WiringTool_TeleGate": {
       "RatedVoltageV": 1000,
       "ResistanceOhms": 100,
+      "MaximumVoltageV": 1100,
       "ActivationEnergyJoules": 100000000,
       "TurnOnVoltageV": 950,
       "TurnOffVoltageV": 900
@@ -249,6 +250,7 @@
     "bb.WiringTool_TimeMachine": {
       "RatedVoltageV": 1000,
       "ResistanceOhms": 100,
+      "MaximumVoltageV": 1100,
       "TurnOnVoltageV": 950,
       "TurnOffVoltageV": 900
     },
