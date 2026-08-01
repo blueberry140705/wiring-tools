@@ -1,0 +1,273 @@
+{
+  "StorageCapacityJoules": 200000000,
+  "StorageNominalVoltageV": 220,
+  "StorageSagBelowPercent": 20,
+  "StorageMaximumChargeCurrentA": 50,
+  "StorageMaximumDischargeCurrentA": 50,
+  "TimeMachine": {
+    "TimeStepMinutes": 10,
+    "EnergyPerTimeStepJ": 100000,
+    "EnergyPerDayStepJ": 14400000,
+    "EnergyPerYearStepJ": 1612800000
+  },
+  "PowerSources": {
+    "$VanillaSolarPanel": {
+      "OutputVoltageV": 220,
+      "MaximumOutputCurrentA": 10,
+      "AllowsParallelCurrentSharing": true,
+      "GenerationModel": "Solar",
+      "RequiresOutdoors": true,
+      "DisabledByRain": true,
+      "SunriseTime": 600,
+      "SunsetTime": 2000,
+      "ReserveCapacityJ": 660000
+    },
+    "bb.WiringTool_SolarGenerator": {
+      "OutputVoltageV": 220,
+      "MaximumOutputCurrentA": 20,
+      "AllowsParallelCurrentSharing": true,
+      "GenerationModel": "Solar",
+      "RequiresOutdoors": true,
+      "DisabledByRain": true,
+      "SunriseTime": 600,
+      "SunsetTime": 2000,
+      "ReserveCapacityJ": 1320000
+    },
+    "bb.WiringTool_WindTurbine": {
+      "OutputVoltageV": 220,
+      "MaximumOutputCurrentA": 25,
+      "AllowsParallelCurrentSharing": true,
+      "GenerationModel": "Wind",
+      "RequiresOutdoors": true,
+      "BaseAvailability": 0.5,
+      "GustAmplitude": 0.15,
+      "RainAvailabilityBonus": 0.35,
+      "GustFrequencyPerSecond": 0.7,
+      "TileXPhase": 0.31,
+      "TileYPhase": 0.17,
+      "ReserveCapacityJ": 1650000
+    },
+    "bb.WiringTool_EnergyStorage": {
+      "OutputVoltageV": 220,
+      "MaximumOutputCurrentA": 50,
+      "AllowsParallelCurrentSharing": true,
+      "GenerationModel": "StoredEnergy"
+    }
+  },
+  "DevicePowerRequirements": {
+    "$VanillaLamp": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 484,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "$VanillaMachineIdle": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 2420,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "$VanillaMachineActive": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 48.4,
+      "ActivationEnergyJoules": 50000,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "bb.WiringTool_Switch": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 4840,
+      "ActivationEnergyJoules": 10,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "bb.WiringTool_AndGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_OrGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_NotGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_XorGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_NandGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_NorGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_XnorGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_BufferGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_TimerGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_SrLatch": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_DLatch": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_CountdownTimer": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_DelayGate": {
+      "RatedVoltageV": 5,
+      "ResistanceOhms": 500,
+      "ActivationEnergyJoules": 0.1,
+      "TurnOnVoltageV": 4,
+      "TurnOffVoltageV": 3.5,
+      "MaximumVoltageV": 5.5
+    },
+    "bb.WiringTool_EnergyMeter": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 48400,
+      "TurnOnVoltageV": 20,
+      "TurnOffVoltageV": 10
+    },
+    "bb.WiringTool_LightSensor": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 4840,
+      "ActivationEnergyJoules": 10,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "bb.WiringTool_LiquidSensor": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 4840,
+      "ActivationEnergyJoules": 10,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "bb.WiringTool_ProximityScanner": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 2420,
+      "ActivationEnergyJoules": 20,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "bb.WiringTool_PressurePlate": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 4840,
+      "ActivationEnergyJoules": 10,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "bb.WiringTool_AutoTurret": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 242,
+      "ActivationEnergyJoules": 1000,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "bb.WiringTool_EnergyStorage": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 22,
+      "TurnOnVoltageV": 180,
+      "TurnOffVoltageV": 160
+    },
+    "bb.WiringTool_CombatDrone": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 605,
+      "ActivationEnergyJoules": 500,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "bb.WiringTool_TeleGate": {
+      "RatedVoltageV": 1000,
+      "ResistanceOhms": 100,
+      "ActivationEnergyJoules": 100000000,
+      "TurnOnVoltageV": 950,
+      "TurnOffVoltageV": 900
+    },
+    "bb.WiringTool_TimeMachine": {
+      "RatedVoltageV": 1000,
+      "ResistanceOhms": 100,
+      "TurnOnVoltageV": 950,
+      "TurnOffVoltageV": 900
+    },
+    "bb.WiringTool_MusicBox": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 4840,
+      "ActivationEnergyJoules": 10,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    }
+  },
+  "OperatingRequirements": {
+    "bb.WiringTool_TeleGate": {
+      "MinVoltageV": 950,
+      "MinPowerW": 50000
+    },
+    "bb.WiringTool_TimeMachine": {
+      "MinVoltageV": 950,
+      "MinPowerW": 50000
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "SolverStates": {
+    "Solved": "fine",
+    "OpenCircuit": "hở",
+    "FloatingNetwork": "Mang khong nguon",
+    "ShortCircuit": "đoản mạch",
+    "SourceTripped": "nguồn tắt",
+    "OverCurrent": "quá dòng",
+    "ConflictingVoltageSources": "xung đột nguồn",
+    "SingularMatrix": "Loi ma tran",
+    "InvalidConfiguration": "nguồn sai"
+  },
+  "GameplayStates": {
+    "Disabled": "Off",
+    "Brownout": "sụt áp",
+    "OverVoltage": "quá áp",
+    "Operational": "ổn"
+  },
+  "ElectricalStates": {
+    "Open": "hở",
+    "Conducting": "ổn",
+    "Standby": "stadnby"
+  },
+  "LogicStates": {
+    "On": "ON",
+    "Off": "OFF"
+  },
+  "TimeMachine": {
+    "Title": "0_0",
+    "Years": "Năm",
+    "Days": "Ngày",
+    "Hours": "Giờ",
+    "Minutes": "Phút",
+    "DayByDay": "Từng ngày (Day by day)",
+    "Destination": "Điểm đến",
+    "RequiredEnergy": "Năng lượng cần thiết",
+    "AvailableEnergy": "Năng lượng hiện tại",
+    "Start": "Go",
+    "Cancel": "Hủy",
+    "DestinationSummary": "Đích đến: {3}, ngày {1}, mùa {0} năm {2}",
+    "EnergySummary": "Cần: {0}    Có: {1}",
+    "InvalidTime": "Không thể quá 2AM",
+    "InsufficientEnergy": "Không đủ năng lượng để bắt đầu",
+    "TravelFailed": "Lỗi hệ thống",
+    "Spring": "Xuân",
+    "Summer": "Hạ",
+    "Fall": "Thu",
+    "Winter": "Đông"
+  },
+  "SmartGlassesTv": {
+    "Channel": "Jojo Home Shopping",
+    "Advertisement": "JOJO SMART GLASSES - SẢN PHẨM GIỚI HẠN - CHỈ {0}G - ĐẶT NGAY, GIAO TẬN DƯỜNG!",
+    "OrderPrompt": "Đặt mua Smart Glasses với giá {0}g? Hàng sẽ được giao tới nhà vào sáng mai",
+    "Buy": "Đặt mua",
+    "Cancel": "Không mua",
+    "InsufficientFunds": "Bạn không có đủ {0}g.",
+    "OrderPlaced": "Đã đặt hàng!",
+    "Delivered": "Đơn hàng Smart Glasses đã được giao tới nhà."
+  }
+}
