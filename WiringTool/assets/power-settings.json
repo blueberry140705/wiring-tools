@@ -4,6 +4,24 @@
   "StorageSagBelowPercent": 20,
   "StorageMaximumChargeCurrentA": 50,
   "StorageMaximumDischargeCurrentA": 50,
+  "StorageChargeEfficiency": 0.95,
+  "StorageDischargeEfficiency": 0.95,
+  "StorageInternalResistanceOhms": 0.1,
+  "StorageUseSocVoltageCurve": true,
+  "StorageAllowSimultaneousChargeDischarge": false,
+  "IdealWires": true,
+  "WireResistancePerTileOhms": 0.01,
+  "WireMaximumCurrentA": 100,
+  "WireFuseEnabled": true,
+  "RealisticLogicMode": false,
+  "OpenCollectorOutputItemIds": [],
+  "NonElectricVanillaMachines": [
+    "Tapper", "Heavy Tapper", "Bee House", "Mushroom Box", "Mushroom Log",
+    "Keg", "Preserves Jar", "Cask", "Loom", "Anvil",
+    "Charcoal Kiln", "Fish Smoker", "Worm Bin", "Deluxe Worm Bin",
+    "Statue Of Endless Fortune", "Statue Of Perfection", "Statue Of True Perfection"
+  ],
+  "LogicPropagationDelayMs": 20,
   "TimeMachine": {
     "TimeStepMinutes": 10,
     "EnergyPerTimeStepJ": 100000,
@@ -15,43 +33,76 @@
       "OutputVoltageV": 220,
       "MaximumOutputCurrentA": 10,
       "AllowsParallelCurrentSharing": true,
+      "ProtectionMode": "Trip",
+      "AllowsReverseCurrent": false,
+      "InternalResistanceOhms": 0.05,
+      "TripDelaySamples": 2,
       "GenerationModel": "Solar",
       "RequiresOutdoors": true,
       "DisabledByRain": true,
       "SunriseTime": 600,
       "SunsetTime": 2000,
+      "SolarSeasonFactor": 1.0,
+      "CloudAvailabilityFactor": 1.0,
       "ReserveCapacityJ": 660000
+      ,"ReserveChargeEfficiency": 0.9
+      ,"ReserveDischargeEfficiency": 0.9
     },
     "bb.WiringTool_SolarGenerator": {
       "OutputVoltageV": 220,
       "MaximumOutputCurrentA": 20,
       "AllowsParallelCurrentSharing": true,
+      "ProtectionMode": "Trip",
+      "AllowsReverseCurrent": false,
+      "InternalResistanceOhms": 0.05,
+      "TripDelaySamples": 2,
       "GenerationModel": "Solar",
       "RequiresOutdoors": true,
       "DisabledByRain": true,
       "SunriseTime": 600,
       "SunsetTime": 2000,
+      "SolarSeasonFactor": 1.0,
+      "CloudAvailabilityFactor": 1.0,
       "ReserveCapacityJ": 1320000
+      ,"ReserveChargeEfficiency": 0.9
+      ,"ReserveDischargeEfficiency": 0.9
     },
     "bb.WiringTool_WindTurbine": {
       "OutputVoltageV": 220,
       "MaximumOutputCurrentA": 25,
       "AllowsParallelCurrentSharing": true,
+      "ProtectionMode": "Trip",
+      "AllowsReverseCurrent": false,
+      "InternalResistanceOhms": 0.08,
+      "TripDelaySamples": 2,
       "GenerationModel": "Wind",
       "RequiresOutdoors": true,
       "BaseAvailability": 0.5,
       "GustAmplitude": 0.15,
       "RainAvailabilityBonus": 0.35,
-      "GustFrequencyPerSecond": 0.7,
+      "GustFrequencyPerSecond": 0.0007,
       "TileXPhase": 0.31,
       "TileYPhase": 0.17,
       "ReserveCapacityJ": 1650000
+      ,"ReserveChargeEfficiency": 0.9
+      ,"ReserveDischargeEfficiency": 0.9
     },
     "bb.WiringTool_EnergyStorage": {
       "OutputVoltageV": 220,
       "MaximumOutputCurrentA": 50,
       "AllowsParallelCurrentSharing": true,
+      "ProtectionMode": "Trip",
+      "AllowsReverseCurrent": false,
+      "InternalResistanceOhms": 0.0,
+      "TripDelaySamples": 2,
       "GenerationModel": "StoredEnergy"
+    }
+  },
+  "PowerConverters": {
+    "bb.WiringTool_VoltageRegulator": {
+      "EfficiencyPercent": 92,
+      "StandbyPowerW": 2,
+      "ProtectionMode": "CurrentLimit"
     }
   },
   "DevicePowerRequirements": {
@@ -64,6 +115,13 @@
     "$VanillaMachineIdle": {
       "RatedVoltageV": 220,
       "ResistanceOhms": 2420,
+      "TurnOnVoltageV": 198,
+      "TurnOffVoltageV": 176
+    },
+    "$VanillaGate": {
+      "RatedVoltageV": 220,
+      "ResistanceOhms": 4840,
+      "ActivationEnergyJoules": 0,
       "TurnOnVoltageV": 198,
       "TurnOffVoltageV": 176
     },
@@ -236,6 +294,8 @@
       "RatedVoltageV": 220,
       "ResistanceOhms": 605,
       "ActivationEnergyJoules": 500,
+      "CombatEnergyJoules": 5000,
+      "WateringEnergyJoules": 50,
       "TurnOnVoltageV": 198,
       "TurnOffVoltageV": 176
     },
