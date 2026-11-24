@@ -1,7 +1,7 @@
 {
   "bb.WiringTool_SmartGlasses": {
     "Name": "Smart Glasses",
-    "Description": "Sản phẩm mới của Jojo,công ty con của Joja,phát hành giới hạn"
+    "Description": "Sản phẩm mới của Joja, phát hành giới hạn"
   },
   "bb.WiringTool_CircuitBoard": {
     "Name": "Circuit Board",
@@ -9,7 +9,7 @@
   },
   "bb.WiringTool_Switch": {
     "Name": "Wire Switch",
-    "Description": "Công tắc phát tín hiệu logic ON/ÒFF"
+    "Description": "Công tắc phát tín hiệu logic ON/OFF"
   },
   "bb.WiringTool_AndGate": {
     "Name": "AND Gate",
@@ -45,7 +45,7 @@
   },
   "bb.WiringTool_TimerGate": {
     "Name": "Timer Gate",
-    "Description": "Khi input ENABLE bật, đổi trạng thái output theo khoảng 0.1–2.0 giây; input tắt thì output tắt và chu kỳ được reset"
+    "Description": "Khi input ENABLE bật, đổi trạng thái output theo khoảng 0.1–2.0 giây; input tắt thì output tắt và chu kỳ được reset; cần nguồn điện để chạy"
   },
   "bb.WiringTool_SrLatch": {
     "Name": "SR Latch",
@@ -77,7 +77,7 @@
   },
   "bb.WiringTool_PressurePlate": {
     "Name": "Pressure Plate",
-    "Description": "Tấm áp lực,giẩm lên để kích hoạt"
+    "Description": "Tấm áp lực, giẫm lên để kích hoạt"
   },
   "bb.WiringTool_DLatch": {
     "Name": "D-Latch",
@@ -89,7 +89,7 @@
   },
   "bb.WiringTool_DelayGate": {
     "Name": "Delay Gate",
-    "Description": "Trì hoãn mọi thay đổi tín hiệu trong nửa giây"
+    "Description": "Trì hoãn mọi thay đổi tín hiệu trong nửa giây="
   },
   "bb.WiringTool_AutoTurret": {
     "Name": "Auto Turret",
@@ -97,23 +97,23 @@
   },
   "bb.WiringTool_EnergyStorage": {
     "Name": "Energy Storage",
-    "Description": "Lưu năng lượng bằng J và phát điện,nếu dưới 20%, điện áp sụt"
+    "Description": "Lưu năng lượng bằng J và phát điện; nếu dưới 20%, điện áp sẽ sụt"
   },
   "bb.WiringTool_VoltageRegulator": {
     "Name": "Bộ điều áp",
-    "Description": "Đổi điện áp đầu ra theo theo hệ số từ -0.9 - 2.0, cường độ dòng diện thì ngược lại"
+    "Description": "Đổi điện áp đầu ra theo hệ số từ 0.1 đến 2.0, cường độ dòng điện thay đổi theo tỷ lệ nghịch"
   },
   "bb.WiringTool_CombatDrone": {
     "Name": "Combat Drone",
-    "Description": "Công nghệ mới"
+    "Description": "Truy kích quái trong vùng 16x16, tầm bắn 3, tưới cây trong 24x24"
   },
   "bb.WiringTool_TeleGate": {
     "Name": "Teleport Gate",
-    "Description": "Anh và em có thể gần nhau hơn ?không ?"
+    "Description": "Anh và em có thể gần nhau hơn không?"
   },
   "bb.WiringTool_TimeMachine": {
     "Name": "Time Machine",
-    "Description": "Thời gian là ảo, không gian mới là thật.Bạn không thể trở về quá khứ do không thể tái tạo lại trạng thái của cả vũ trụ.Nhưng bạn có thể dừng trạng thái của chính bạn để tới tương lai"
+    "Description": "Thời gian là ảo, không gian mới là thật. Bạn không thể trở về quá khứ vì không thể tái tạo trạng thái của cả vũ trụ, nhưng có thể đưa chính mình tới tương lai"
   },
   "bb.WiringTool_MusicBox": {
     "Name": "Music Box",
@@ -121,6 +121,6 @@
   },
   "bb.WiringTool_PowerRelay": {
     "Name": "Power Relay",
-    "Description": "relay 1 keenh, dùng để ngắt/mở mạch"
+    "Description": "Rơ-le điện công suất không giới hạn. Chỉ dẫn điện từ POWER IN sang POWER OUT khi ENABLE đang ON."
   }
 }

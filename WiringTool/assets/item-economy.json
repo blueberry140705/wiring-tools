@@ -218,8 +218,13 @@
     }
   },
   "bb.WiringTool_CombatDrone": {
-    "SellPrice": 1500,
-    "Shops": {}
+    "SellPrice": 15000,
+    "Shops": {
+      "Joja": {
+        "BuyPrice": 25000,
+        "AvailableStock": 2147483647
+      }
+    }
   },
   "bb.WiringTool_TeleGate": {
     "SellPrice": 4200000,
